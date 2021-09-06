@@ -1,0 +1,51 @@
+
+.App{
+    background-color:rgb(213, 226, 217);
+    
+    
+}
+.Slider_item>img, #Biglogo{
+    height: 380px;
+    width: 98%;
+    /* object-fit: fill; */
+}
+
+.Hotheader{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width :100%;
+    background-color: var(--bg-color3);
+    
+}
+.gridlogo{
+    margin-top: -26px !important;
+    margin-bottom: 2px !important;
+}
+.Hotheader>h1{
+    
+    
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Hot{
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: rgb(8, 160, 206);
+    align-self: center !important;
+    justify-self: center !important;
+    margin-left: 0.3px !important;
+    margin-bottom: 8px !important;
+}
+
+.upsize{
+    font-size: 1rem;
+}
+.upsize>p{
+    color: #fff;;
+    font-weight: bold;
+}
+.h3{
+    
+}

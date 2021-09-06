@@ -1,0 +1,70 @@
+.ProductCard{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;/*flex-end */   
+    margin: 10px;
+    height: 420px;
+    padding: 10px;
+    border-radius: 12px !important;
+    min-width: 170px;
+    
+    background-color: rgb(252, 252, 224);
+    z-index: 1;
+}
+
+.ProductCard_Content{
+    border-radius: 12px !important;
+    color: rgb(70, 67, 67);
+    background-color: rgb(209, 226, 187);
+    display: flex;
+    flex-direction: column;
+    /* align-self: center; */
+    width: 100%;
+    justify-content: center;
+    align-items: left;
+    text-align: left !important;
+    font-size: 1.1rem;
+    height: fit-content;
+    margin-bottom: 5px;
+    font-family: 'MuseoModerno', cursive;
+    padding: 8px;
+}
+.ProductCard>img{
+    min-height:  250px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 8px; /*Or 100%*/
+}
+.ProductCard>button{
+    cursor: pointer;
+    padding: 2px;
+    background-color: #50d483;
+    border: 1px solid;
+    margin-top: 4px;
+    color: rgb(247, 239, 239);
+    width:100%;
+    font-size: 1.3em;
+}
+
+.product_rating{
+    display: flex;
+}
+.product_price{
+    margin-top: 3px;
+}
+.ProductCard_Content>P{
+    margin-left: 3px;
+}
+#lg-product{
+    width: 100%!important;
+    max-height: 500px !important;
+    
+}
+#lg-product-img{
+    width: 100% !important;
+    object-fit: fill;
+    
+    height: 350px !important;
+}
+
