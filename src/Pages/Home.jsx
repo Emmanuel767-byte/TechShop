@@ -17,7 +17,7 @@ import StoreLogo2 from "../Images/StoreLogo2.png"
 
  
 function Home() {
-     var kk="0";
+    
     const useStyles = makeStyles((theme) => ({
         root: {
           flexGrow: 1,
