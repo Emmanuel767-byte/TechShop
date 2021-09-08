@@ -13,6 +13,7 @@ import Rockfoster from "../Images/Rockfoster.jfif";
 import PumpThatBass from "../Images/PumpThatBass.gif";
 import StudioSet2 from "../Images/StudioSet2.jpg";
 import StudioSet1edit from "../Images/StudioSet1edit.jpg";
+import { Card } from '@material-ui/core';
 
 
 
@@ -47,29 +48,34 @@ function Example () {
         //     </>
         // ))}  
         // })
-
+  const IntroCard=(<Card className="SliderCard">
+      <h1>All Your Audio Needs</h1>
+    <h3>Plus Car Audio Installation services</h3>
+    <div className="slidelinks">
+      <li><a useRef="">Start Shopping</a></li>
+      <li><a useRef="">Sign Up</a></li>
+    </div>
+  </Card>)
   return (<Carousel interval={4000}>
+      <Carousel.Item interval={10000} className="Slider_item">
+      <img
+        className="d-block w-100"
+        src={hometheatre}
+        alt="Third slide"
+      />
+      <Carousel.Caption className="upsize introcard">
+        {IntroCard}
+      </Carousel.Caption>
+    </Carousel.Item>
     <Carousel.Item className="Slider_item">
       <img
         className="d-block w-100"
         src={CARbASS}
         alt="Second slide"
       />
-  
       <Carousel.Caption className="upsize">
         <h3 className="h3">Upgrade Today</h3>
         <p>Pimp you Ride</p>
-      </Carousel.Caption>
-    </Carousel.Item>
-    <Carousel.Item className="Slider_item">
-      <img
-        className="d-block w-100"
-        src={hometheatre}
-        alt="Third slide"
-      />
-      <Carousel.Caption className="upsize">
-        <h3 className="h3">Home Theatre</h3>
-        <p>Have the Cenima right in your house!</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item className="Slider_item">

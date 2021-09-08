@@ -72,12 +72,6 @@ border-width: thick;
     
 }
 
-.home_intro_card>div>p{
-    text-align: left;
-    font-style: oblique;
-    font-size:20px;
-}
-
 /* @media screen and (max-width: 1266px) and (min-width: 769px) {
 
     .home{

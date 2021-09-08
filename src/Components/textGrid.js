@@ -52,7 +52,7 @@ export default function CenteredGrid() {
                             price={250.99}
                             img={Pionerdeck}></Productcard>
         </Grid>
-        <Grid item xs={12} className="gridlogo">
+        <Grid item xs={12} className="gridlogo" style={{marginTop:'10px'}}>
         <div className={`home_row`}>
                                 
                                 <img id="Biglogo" alt="" src={StudioSet1edit}/>

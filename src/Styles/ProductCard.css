@@ -4,19 +4,19 @@
     align-items:center;
     justify-content: center;/*flex-end */   
     margin: 10px;
-    height: 420px;
+    height: 440px;
     padding: 10px;
     border-radius: 12px !important;
     min-width: 170px;
-    
-    background-color: rgb(252, 252, 224);
+   
+    background-color: rgb(247, 239, 239);
     z-index: 1;
 }
 
 .ProductCard_Content{
     border-radius: 12px !important;
-    color: rgb(70, 67, 67);
-    background-color: rgb(209, 226, 187);
+    color: white;
+    background-color: #d11518;
     display: flex;
     flex-direction: column;
     /* align-self: center; */
@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: left;
     text-align: left !important;
-    font-size: 1.1rem;
+    font-size: 1.4em;
     height: fit-content;
     margin-bottom: 5px;
     font-family: 'MuseoModerno', cursive;
@@ -34,17 +34,20 @@
     min-height:  250px;
     width: 100%;
     object-fit: contain;
+    border-radius: 11px !important;
     margin-bottom: 8px; /*Or 100%*/
 }
 .ProductCard>button{
     cursor: pointer;
     padding: 2px;
-    background-color: #50d483;
+    background-color: #d11518;
     border: 1px solid;
+    border-radius: 10px;
     margin-top: 4px;
     color: rgb(247, 239, 239);
     width:100%;
     font-size: 1.3em;
+    margin-bottom: 8px;
 }
 
 .product_rating{

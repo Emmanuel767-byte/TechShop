@@ -3,6 +3,7 @@ import Productcard from "../Components/Productcard";
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import CARbASS from "../Images/CARbASS.jpg";
+
 import hometheatre from "../Images/hometheatre.jfif";
 import '../Styles/Home.css';
 import CenteredGrid from "../Components/textGrid";
@@ -17,7 +18,7 @@ import StoreLogo2 from "../Images/StoreLogo2.png"
 
  
 function Home() {
-    
+                
     const useStyles = makeStyles((theme) => ({
         root: {
           flexGrow: 1,
@@ -46,20 +47,6 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
         <div className="home">
                 
                         <div className="home_row section-1">
-                            {/* <>
-                            <div className="home_intro">    
-                            <div className="imgDv">
-                            <img src={Buildinng} alt="#" /> 
-                            </div>
-                            <div className="home_intro_card">
-                            {Welcome}
-                            </div>
-                                    
-                            </div>
-                            </> */}
-                            <div className="LogoDv">
-                                <img src={StoreLogo2} alt="#"/>
-                            </div>
                         <CenteredGrid/>
                         </div>   
                         <div className="home_row_cntnr">

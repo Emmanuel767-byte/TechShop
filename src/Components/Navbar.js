@@ -30,12 +30,16 @@ function Navbar() {
             <div className="Nav_Tabs">
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-            <div><MenuTab/></div>
+            <li><a href="#">Amps</a></li>
+            <li><a href="#">Capacitors</a></li>
+            <li><a href="#">Speakers</a></li>
+            <li><a href="#">Adaptors & Accessories</a></li>
+            {/* <div><MenuTab/></div> */}
             </div>  
            
            <div id="Nav_logo" > 
            <img /*--->pngimg.com IMPORTANT site for company LOGOS<---*/
-            src={Coolfan} alt="#"/>
+            src={StoreLogo2} alt="#"/>
             </div>
 
             </AppBar>
