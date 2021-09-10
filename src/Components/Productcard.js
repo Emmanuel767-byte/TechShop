@@ -21,7 +21,7 @@ function Productcard({id, title, price, img, rating, info, lg }) {
                 </div> */
                 }
             </div>
-            <button className="product_btn">Add To Cart</button>
+            <button className="product_btn">See More Details</button>
         
         </div>
     )

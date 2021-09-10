@@ -44,8 +44,7 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
                 </div>
       )
     return (
-        <div className="home">
-                
+        <div id="home" className="home">         
                         <div className="home_row section-1">
                         <CenteredGrid/>
                         </div>   

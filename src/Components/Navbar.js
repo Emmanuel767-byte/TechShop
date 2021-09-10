@@ -26,10 +26,10 @@ function Navbar() {
 
     
     return (
-        <AppBar className="Navbar" position="static" >
+        <AppBar className="Navbar" position="sticky" >
             <div className="Nav_Tabs">
             <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact-us">Contact</a></li>
             <li><a href="#">Amps</a></li>
             <li><a href="#">Capacitors</a></li>
             <li><a href="#">Speakers</a></li>
@@ -37,9 +37,10 @@ function Navbar() {
             {/* <div><MenuTab/></div> */}
             </div>  
            
-           <div id="Nav_logo" > 
-           <img /*--->pngimg.com IMPORTANT site for company LOGOS<---*/
-            src={StoreLogo2} alt="#"/>
+           <div id="Nav_logo" ><a href="#home">
+                    <img /*--->pngimg.com IMPORTANT site for company LOGOS<---*/
+                        src={StoreLogo2} alt="#"/>
+            </a>
             </div>
 
             </AppBar>

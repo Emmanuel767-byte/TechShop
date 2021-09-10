@@ -2,9 +2,13 @@ import React from 'react';
 
 import './Styles/App.css';
 import Navbar from './Components/Navbar';
-import Home from "./Pages/Home"
+import Home from "./Pages/Home";
+import ContactUs from './Pages/ContactUs.jsx';
 import Example from './Components/Example';
+
 //import CenteredGrid from "./Components/textGrid"
+
+// window.onload(document.querySelector(".App"))
 
 
 function App() {
@@ -13,7 +17,7 @@ function App() {
       <Navbar/>
       
       <Home/>
-      
+      <ContactUs/>
     </div>  
   );
 }
