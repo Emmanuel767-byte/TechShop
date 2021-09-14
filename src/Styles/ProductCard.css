@@ -55,6 +55,7 @@
     color:var(--bg-dark-nav-clr) !important;
     /* border: 2px outset rgb(241, 32, 32); */
     transition: cubic-bezier(0.19, 1, 0.22, 1) !important;
+    text-shadow: rgb(247, 239, 239) !important;
 }
 
 .product_rating{

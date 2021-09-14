@@ -58,9 +58,6 @@
     list-style: none;
     cursor: pointer;
 }
-.slidelinks>li:hover{
-    background-color: lightseagreen !important;
-}
 
 
 .Hotheader{
@@ -85,11 +82,13 @@
     border-bottom-left-radius: 12px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    background-color: rgb(8, 160, 206);
+    /* background-color: rgb(8, 160, 206); */
+    background-color: rgb(224, 231, 231);
     align-self: center !important;
     justify-self: center !important;
     margin-left: 0.3px !important;
     margin-bottom: 8px !important;
+    margin-top: 8px !important;
 }
 
 /* .upsize{

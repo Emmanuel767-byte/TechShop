@@ -14,9 +14,10 @@ import Example from './Components/Example';
 function App() {
   return (
     <div className="App">
+      <meta name="viewport" content="width=device-width, inital-scale=1.0"/>
       <Navbar/>
       
-      <Home/>
+      <Home />
       <ContactUs/>
     </div>  
   );

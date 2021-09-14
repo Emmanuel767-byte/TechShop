@@ -1,12 +1,14 @@
  .contact-us{
     display: flex;
-     background-color: rgba(214, 48, 48, 0.856) !important;
+     /* background-color: rgba(214, 48, 48, 0.856) !important; */
+   background-color: var(--bg-dark-nav-clr);
     height: 320px !important;
     padding: 10px;
     justify-content: space-between !important;
     margin-top: -10px;
    
  }
+
 
  .contactImgHeader{
    display: flex;
@@ -52,7 +54,7 @@
     border-radius: 15px;
     height: 150px;
     align-self: center;
-    color:var(--bs-body-color) !important;
+    /* color:var(--bs-body-color) !important; */
     background-color: transparent !important;
     margin-right: 35px !important;
     
@@ -84,4 +86,9 @@ padding: 5px;
    height: 100px;
    width: 100px;
    margin-bottom: 5px;
+}
+ 
+.Contact_socials, .contact_Logo, .buildingAdrss{
+   color: blanchedalmond !important;
+
 }
