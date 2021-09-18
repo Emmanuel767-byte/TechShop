@@ -10,55 +10,6 @@
     /* object-fit: fill; */
 }
 
-.SliderCard{
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: space-around;
-    width: 550px !important;
-    height: 250px;
-    font-weight: bolder;
-    border: 3px  outset;
-   
-    border-radius: 15px !important ;
-    padding: 6px;
-    background-color: transparent !important;
-}
-.introcard{
-    left: 34% !important;
-    top: 20% !important;
-    margin-top: -100px !important;
-    
-}
-
-.slidelinks{
-    display: flex;
-    justify-content: space-evenly;
-}
-.SliderCard>h1{
-    color: #fff;
-}
-.SliderCard>h3{
-    color: rgb(186, 195, 207);
-    text-shadow: 1px 1px 4px rgb(43, 42, 42);
-
-}
-.slidelinks>li>a{
-    padding: 3px;
-    color: rgb(212, 219, 230) !important;
-    
-}
-.slidelinks>li>a:hover{
-    color: #fff !important;
-}
-.slidelinks>li{
-    border-radius: 10px;
-    border: 1.5px lightseagreen inset;
-    padding: 5px;
-    list-style: none;
-    cursor: pointer;
-}
-
 
 .Hotheader{
     border-top-left-radius: 12px;

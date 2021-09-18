@@ -6,7 +6,7 @@ import CARbASS from "../Images/CARbASS.jpg";
 
 import hometheatre from "../Images/hometheatre.jfif";
 import '../Styles/Home.css';
-import CenteredGrid from "../Components/textGrid";
+import CenteredGrid from "../Components/centerGrid.js";
 import Example from "../Components/Example.js";
 import Rockfoster from  "../Images/Rockfoster.jfif";
 import Capacitor1 from "../Images/Capacitor1.jfif";

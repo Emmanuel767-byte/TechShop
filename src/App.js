@@ -8,7 +8,7 @@ import Example from './Components/Example';
 
 //import CenteredGrid from "./Components/textGrid"
 
-// window.onload(document.querySelector(".App"))
+
 
 
 function App() {

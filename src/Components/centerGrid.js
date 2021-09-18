@@ -38,7 +38,6 @@ export default function CenteredGrid() {
   return (
     <div className={classes.root}>
       <Grid container spacing={2}>
-        
           <Grid item xs={12}>
             <Example/>
           </Grid>
